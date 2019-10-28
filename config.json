@@ -1,0 +1,32 @@
+{
+  "entry": {
+    "scss": ["./src/scss/main.scss"],
+    "js": "./src/js/app.js"
+  },
+  "output": {
+    "js": "app.js"
+  },
+  "path": {
+    "src": {
+      "pug": "./src/views/**/!(_)*.pug",
+      "scss": "./src/scss/**/*.scss",
+      "js": "./src/js/**/*.js",
+      "img": "./src/img/**/*",
+      "icons": "./src/icons/**/*.svg"
+    },
+    "dist": {
+      "base": "./dist",
+      "html": "./dist/*.html",
+      "css": "./dist/css",
+      "js": "./dist/js",
+      "img": "./dist/img",
+      "icons": "./dist/icons"
+    }
+  },
+  "reports": {
+    "path": "./reports",
+    "output": {
+      "stylelint": "stylelint.json"
+    }
+  }
+}

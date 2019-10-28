@@ -1,0 +1,16 @@
+<svg class="water">
+  <defs>
+    <filter id="waterFilter">
+      <feTurbulence type="turbulence" baseFrequency="0.01" numOctaves="3" seed="1" result="turbulence">
+        <animate attributeName="baseFrequency" values="0.01;0.005;0.01;" dur="30s" begin="0"
+          repeatCount="indefinite" />
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="B"
+        result="displacement" />
+    </filter>
+  </defs>
+  <g class="bg">
+    <image xlink:href="img/water-texture.jpg" x="0" y="0"
+      height="100%" width="100%" preserveAspectRatio="xMidYMid slice" />
+  </g>
+</svg>

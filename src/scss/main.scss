@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.fish {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  path {
+    pointer-events: none;
+  }
+}
+.water {
+  position: absolute;
+  top: -5%;
+  right: -5%;
+  bottom: 0;
+  left: -5%;
+  z-index: -1;
+  width: 110%;
+  height: 110vh;
+  .bg {
+    filter: url('#waterFilter');
+  }
+}
