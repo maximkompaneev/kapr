@@ -1,0 +1,33 @@
+Error: C:\Users\Maxim\Desktop\kapr-1\src\views\index.pug:6:10
+    4|     meta(charset='utf-8')
+    5|     title
+  > 6|     link(rel="stylesheet", href="css/main.css")
+----------------^
+    7| 
+    8|   body
+    9|     include includes/kapr.svg
+
+Invalid attribute quote mark found,Error: C:\Users\Maxim\Desktop\kapr-1\src\views\index.pug:6:28
+    4|     meta(charset='utf-8')
+    5|     title
+  > 6|     link(rel="stylesheet", href="css/main.css")
+----------------------------------^
+    7| 
+    8|   body
+    9|     include includes/kapr.svg
+
+Invalid attribute quote mark found,Error: C:\Users\Maxim\Desktop\kapr-1\src\views\index.pug:12:12
+    10|     include includes/water.svg
+    11| 
+  > 12|     script(src="js/app.js")
+-------------------^
+    13| 
+
+Invalid attribute quote mark found,Error: C:\Users\Maxim\Desktop\kapr-1\src\views\index.pug:1:7
+  > 1| doctype
+-------------^
+    2| html(lang='en')
+    3|   head
+    4|     meta(charset='utf-8')
+
+Invalid line break
